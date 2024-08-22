@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "medieval";
+    src:url(pacote-projeto-d010/fontes/idroid.otf) format(OpenType);
+}
+
+body{
+    background-color: rgb(138, 241, 248);
+}
+
+
+header{
+    background-image: linear-gradient(to top, #064e4b, #12E0D7);
+    height: 180px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+    margin: -8px;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.575);
+}
+
+header>h1{
+    text-align: center;
+    color: white;
+    border-color: black;
+    border: 1px;
+}
+header>h2{
+    text-align: center;
+    color: white;
+}
+main{
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    margin-top: 9px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(44, 43, 43, 0.705);
+}
+p{
+    text-align: justify;
+}
+
+header>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    background-image: linear-gradient(to top, #064e4b, #0a8680);
+    border: 1px;
+    border: rgb(247, 246, 246);
+    height: 10px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    margin-right: -6px;
+    border-radius: 2px;
+}
+
+header > a:hover{
+    color: rgb(0, 8, 8);
+    background-color: #f2f8f8;
+}
+.imagemcentro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: #064e4b;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: -8px;
+}
+main > h1{
+    color: #064e4b;
+    font-family: "medieval";
+}
+main > h2{
+    font-family: "medieval";
+    color: #064e4b;
+    background-color: rgba(138, 241, 248, 0.418);
+    padding: 3px;
+}        
+main >aside{
+    background-color: #064e4b;
+    margin: -9px -10px -9px -10px;
+}     
+
+.parespecial{
+    background-color: #0a8680;
+    color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+article{
+    background-color: rgba(138, 241, 248, 0.418);
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 10px;
+    height: 469px;
+    width: 945px;
+    margin: 30px 10px 20px 10px;
+}
+
+article > p > a{
+    text-decoration: none;
+    color: rgb(4, 12, 134);
+}
+
+article > p > a:hover{
+    color: rgb(160, 7, 7);
+}

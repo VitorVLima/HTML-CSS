@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "medieval";
+    src:url(CloisterBlack.ttf) format(TrueType);
+}
+body{
+    background-image: linear-gradient(to top, #a5069096, #ff01ddb0);
+    background-attachment:fixed;
+   font-family:"roboto",sans-serif;
+}
+
+main{
+    background-color: rgb(249, 249, 250);
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #3b043496;
+    
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+    
+}
+
+h1{
+    font-family: "medieval";
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 5px 5px 10px #08000796;
+    color: rgb(10, 10, 173);
+}
+h2{
+    color: rgb(8, 173, 173);
+    text-decoration: underline;
+}
+.center-horizontal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: bisque;
+        }
+        header{
+            background-color: blueviolet;
+            color: white;
+            max-width:100%;
+            min-width: 320px;
+            margin: -21px -20px;
+            padding: 14px;
+            
+        }
+        header h1{
+            text-align: center;
+        }
+        header p{
+            padding: 10px;
+            text-align: justify;
+        }
+        main{
+            background-color: white;
+            max-width: 1000px;
+            min-width: 320px;
+            margin: auto;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
+        }
+        main p{
+            text-align: justify;
+            text-indent: 30px;
+            padding: 10px;
+        }
+        main h1{
+            text-align: center;
+            color: blueviolet;
+        }
+        div{
+            background-color:blueviolet;
+            padding: 20px;
+            padding-bottom: 50%;
+            margin-left: -0px;
+            margin-right: 0px;
+            position: relative;
+
+            }
+        div > iframe{
+            position: absolute;
+            width: 90%;
+            height: 90%;
+            top: 5%;
+            left: 5%;
+            }
+    </style>
+    <title>Video Dimensionado</title>
+</head>
+
+<body>
+    <header><h1>Cabeçalho</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repudiandae doloremque tenetur, impedit et quibusdam odit sit voluptatibus sed laborum, quis animi? Unde assumenda ullam, provident nobis laboriosam cumque illo.</p></header>
+    <main>
+        <h1>Novo Video</h1>
+        <div>
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/awuPGwo_sIw?si=2SjvY-t1vfhgYuSS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dicta maxime, rerum laboriosam sed, nam accusamus incidunt illo vero sunt ex adipisci minima quaerat? Et perspiciatis quae omnis molestiae dolorem.</p>
+    </main>
+</body>
+</html>

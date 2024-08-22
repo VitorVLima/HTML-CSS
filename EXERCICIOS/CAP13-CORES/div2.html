@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../EX001/img/skull-icon.png" type="image/x-icon">
+    <title>Pseudo-Classes parte 2</title>
+    <style>
+        div:hover{
+            color: rgb(43, 117, 117);
+        }
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+            <p>TEXTO ESCONDIDO, CLIQUE PARA VOLTAR</p>
+    
+    </div>
+    <a href="div.html">
+        <p>voltar</p>
+    </a>
+</body>
+</html>
