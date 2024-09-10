@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+
+        h1{
+            font-size: 3em;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 2px solid white;
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.479);
+            color: azure;
+        }
+
+        body{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Formulário</h1>
+        <form autocomplete="on" action="cadastro.php" method="post">
+       
+
+            <p>
+                <label for="inome"> Nome: </label>
+                <input type="text" name="Nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+            </p>
+            
+            <p>
+                <label for="iest">Estado</label>
+                <select name="est" id="iest">
+                    <optgroup label="Região Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+
+
+                    <option value="CE">Ceará</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PB">Paraíba</option>
+
+                </select>
+            </p>
+            
+            <p><label for="iprof">Profissão </label>
+            <input type="text" name="prof" id="iprof" list="ilista">
+            <datalist id="ilista">
+                <option value="ADN">Administrador</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="MED">Médico</option>
+                <option value="POL">Policial</option>
+
+            </datalist>
+        
+        </p>
+
+        <p><label for="imen">Mensagem </label>
+            <textarea name="mens" id="imens" cols="30" rows="10" placeholder="Digete sua mensagem..."></textarea>
+        </p>
+    
+            <p><input type="submit" value="Enviar">
+                <input type="reset" value="Limpar"></p>
+        
+
+    
+
+        </form>
+        
+      
+
+</body>
+</html>
