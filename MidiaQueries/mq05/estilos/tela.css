@@ -1,0 +1,81 @@
+/*estilo para telas */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#burguer{
+    background-color:rgb(63, 61, 61) ;
+    display: block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#burguer:hover{
+    background-color: white;
+    color: black;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+body{
+    background-color: beige;
+}
+
+header{
+    background-color: darkgray;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 20px;
+}
+ menu{
+    display: none;
+ }
+
+menu > ul{
+    list-style-type: none;
+    background-color: dimgray;
+}
+
+menu > ul > a > li{
+    display: block;
+    color: white;
+    padding: 10px;
+    background-color: rgb(58, 53, 53);
+    text-align: center;
+    border-top: 2px solid gray;
+}
+
+menu > ul > a > li:hover{
+    background-color: rgb(19, 18, 18);
+}
+
+main{
+    max-width: 90vw;
+    display: block;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+article > h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}

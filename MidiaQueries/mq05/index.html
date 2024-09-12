@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/tela.css">
+    <link rel="stylesheet" href="estilos/impressora.css" media="print">
+</head>
+<body>
+    <header>
+        <h1>Noticias</h1>
+        <span class="material-symbols-outlined" id="burguer">
+            menu
+            </span>
+        <menu id="men">
+            <ul>
+                <a href="">
+                    <li>Esportes</li>
+                </a>
+                    <a href="">
+                        <li>Politica</li>
+                    </a>
+                <a href="">
+                    <li>Tecnologia</li>
+                </a>
+                <a href="">
+                    <li>Famosos</li>
+                </a>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Estou aprendendo a utilizar media queries</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto aperiam aliquid nesciunt sit asperiores deleniti expedita quos numquam doloribus ipsum, velit voluptatum laborum porro iste consequuntur eligendi optio neque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo suscipit, ipsam consectetur amet eum magnam, optio earum hic fuga ex praesentium tempora possimus ratione explicabo exercitationem porro, molestiae aspernatur debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur dolore maxime esse, dolorem accusamus itaque atque et, veniam neque ipsa laboriosam repudiandae ea inventore! Eum quaerat vitae itaque incidunt.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto aperiam aliquid nesciunt sit asperiores deleniti expedita quos numquam doloribus ipsum, velit voluptatum laborum porro iste consequuntur eligendi optio neque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo suscipit, ipsam consectetur amet eum magnam, optio earum hic fuga ex praesentium tempora possimus ratione explicabo exercitationem porro, molestiae aspernatur debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur dolore maxime esse, dolorem accusamus itaque atque et, veniam neque ipsa laboriosam repudiandae ea inventore! Eum quaerat vitae itaque incidunt.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto aperiam aliquid nesciunt sit asperiores deleniti expedita quos numquam doloribus ipsum, velit voluptatum laborum porro iste consequuntur eligendi optio neque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo suscipit, ipsam consectetur amet eum magnam, optio earum hic fuga ex praesentium tempora possimus ratione explicabo exercitationem porro, molestiae aspernatur debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur dolore maxime esse, dolorem accusamus itaque atque et, veniam neque ipsa laboriosam repudiandae ea inventore! Eum quaerat vitae itaque incidunt.
+            </p>
+        </article>
+    </main>
+
+    <script>
+        var burguer = document.getElementById('burguer')
+        var itens = document.getElementById('men')
+
+        function clicarMenu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }else{
+                itens.style.display = 'block'
+            }
+        }
+
+        burguer.addEventListener('click',clicarMenu)
+    </script>
+</body>
+</html>
